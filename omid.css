@@ -1,0 +1,150 @@
+/* omid.css */
+
+
+
+#wrap{
+	max-width:1060px;
+	margin:0 auto;
+	font-family:'Roboto';
+	position:relative;
+}
+
+body{
+	margin:0;
+	padding:0;
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(bg.png) repeat 0 0, url(mcgill.jpg) no-repeat center center fixed;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.7) 100%), url(mcgill.jpg) no-repeat center center fixed;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(mcgill.jpg) no-repeat center center fixed;
+	background: -o-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(mcgill.jpg) no-repeat center center fixed;
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(mcgill.jpg) no-repeat center center fixed;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), url(mcgill.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+img.main_bg{
+	opacity:0.1;
+	width:100%;
+	position: absolute:
+	top:0;
+	left:0;
+}
+
+.section{
+
+}
+
+
+
+.one{ height:250px; }
+
+a{
+	text-decoration: none;
+}
+
+img#omid{
+	width:200px;
+	padding-top:30px;
+	height: auto;
+}
+
+img#mcgill{
+	width:300px;
+	height: auto;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+h1{
+	border-bottom:1px solid #fff;
+	padding-bottom:12px;
+}
+
+.overview{
+
+	position: relative;
+  bottom: 150px;
+	text-align: right;
+}
+.garamond{
+	font-family: garamond; 
+}
+
+li.headli{
+	line-height:32px;
+	font-size: 28px;
+	padding-bottom:12px;	
+}
+
+.italics{
+	
+}
+
+.weight{
+	line-height:26px;
+	font-size: 22px;
+	}
+.italics{
+	font-style:italic;
+}
+
+.larger{
+	line-height:22px;
+	font-size: 20px;
+	}
+
+.br{
+	padding-bottom:8px;
+
+}
+
+li{
+	padding-bottom:4px;
+	padding-
+}
+
+ul{
+	list-style-type: none;
+	padding:0;
+}
+
+.item{
+
+	border-bottom:1px solid #fff;
+}
+
+h2:hover{
+
+	color:#666;
+}
+
+h2{
+	cursor:pointer;
+	font-size: 1.2em;
+
+}
+
+@media (max-width : 414px){
+
+	p{
+		margin:20px 0;
+	}
+	
+	.overview{
+
+	position: static !important;;
+	text-align: center !important;;
+		clear:both;
+		float: left;
+}
+
+	img{
+	position:static !important;
+	float:left;
+	width:360px !important;
+	display:block;
+	margin:20px auto 0 auto;
+	}
+	
+}
+
